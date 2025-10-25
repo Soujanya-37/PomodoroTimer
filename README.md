@@ -36,11 +36,13 @@ sys (for sys.stdout.write)
 
 Open your Command Prompt (cmd) or Terminal.
 
-Navigate to the folder where you saved the file (e.g., your Downloads folder):
-cd Downloads
+Navigate to the folder where you saved the file:
+
+## cd Downloads
 
 Run the script using Python:
-python pomodoro_timer.py
+
+## python pomodoro_timer.py
 
 ## 📖 How to Use
 
