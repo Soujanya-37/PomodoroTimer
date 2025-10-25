@@ -36,7 +36,7 @@ sys (for sys.stdout.write)
 
 Open your Command Prompt (cmd) or Terminal.
 
-Navigate to the folder where you saved the file:
+Navigate to the folder where you saved the file(for eg. if u have saved the project in Downloads folder):
 
 #### ->cd Downloads
 
