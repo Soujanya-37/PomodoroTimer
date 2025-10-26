@@ -1,5 +1,7 @@
 # 🍅 PomodoroTimer: A Command-Line Productivity Tool
 
+(A 1st year Python project by Soujanya Shanbhag)
+
 This is a simple, feature-rich Pomodoro timer that runs directly in your command line or terminal. It's built with standard Python and requires no external libraries.
 
 It's a perfect tool to help you stay focused on your work or studies by breaking your time into focused sessions and breaks.
@@ -8,29 +10,29 @@ It's a perfect tool to help you stay focused on your work or studies by breaking
 
 ### 🚀 Core Functionality
 
-Customizable Times: At the start, you can set your own durations for Pomodoros, short breaks, and long breaks, or just press Enter to use the defaults (25, 5, 15).
+*Customizable Times: At the start, you can set your own durations for Pomodoros, short breaks, and long breaks, or just press Enter to use the defaults (25, 5, 15).
 
-Classic Pomodoro Workflow: Follows the standard 4-cycle workflow (Pomodoro, Short Break, Pomodoro, Short Break, Pomodoro, Short Break, Pomodoro, Long Break).
+*Classic Pomodoro Workflow: Follows the standard 4-cycle workflow (Pomodoro, Short Break, Pomodoro, Short Break, Pomodoro, Short Break, Pomodoro, Long Break).
 
-Skip Timers: You can press Ctrl+C during any timer (work or break) to skip it and move to the next session.
+*Skip Timers: You can press Ctrl+C during any timer (work or break) to skip it and move to the next session.
 
 ### 🎨 Command-Line UI
 
-Clean Terminal Display: The timer updates on a single, dynamic line, keeping your terminal window clean.
+*Clean Terminal Display: The timer updates on a single, dynamic line, keeping your terminal window clean.
 
-Simple Alarm: Plays a terminal "bell" sound (the \a character) when a session is complete.
+*Simple Alarm: Plays a terminal "bell" sound (the \a character) when a session is complete.
 
-Interactive Prompts: Clearly guides you when to start your next work session or break.
+*Interactive Prompts: Clearly guides you when to start your next work session or break.
 
 ## 🛠️ Technologies Used
 
-Python 3
+*Python 3
 
 Built-in Modules:
 
-time (for time.sleep())
+*time (for time.sleep())
 
-sys (for sys.stdout.write)
+*sys (for sys.stdout.write)
 
 ## 🚀 How to Run
 
@@ -58,19 +60,17 @@ To quit the entire program, press Ctrl+C at one of the "Press Enter to start..."
 
 ## 🎯 Core Concepts Implemented
 
-User Input: Getting custom times and start/stop commands from the user via input().
+*User Input: Getting custom times and start/stop commands from the user via input().
 
-Time Management: Using the time.sleep() function to pause the program for one-second intervals, creating the countdown.
+*Time Management: Using the time.sleep() function to pause the program for one-second intervals, creating the countdown.
 
-Dynamic Terminal Output: Using sys.stdout.write and the carriage return \r to overwrite the current line in the terminal, creating a smooth, single-line timer.
+*Dynamic Terminal Output: Using sys.stdout.write and the carriage return \r to overwrite the current line in the terminal, creating a smooth, single-line timer.
 
-Exception Handling: Using try...except KeyboardInterrupt to gracefully handle Ctrl+C as a feature (to skip timers or exit) rather than crashing the program.
+*Exception Handling: Using try...except KeyboardInterrupt to gracefully handle Ctrl+C as a feature (to skip timers or exit) rather than crashing the program.
 
-Looping & State: Managing the 4-cycle workflow with a for loop and tracking the current session number.
+*Looping & State: Managing the 4-cycle workflow with a for loop and tracking the current session number.
 
 ## 📄 License
-
-A 1st year Python project by Soujanya Shanbhag.
 
 Distributed under the MIT License. 
 
